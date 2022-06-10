@@ -1,7 +1,7 @@
 # Chatroom-using-kernal-module
-Implement a kernel module and a user-level program
+Implemented a kernel module and a user-level program
 
-Your kernel module should create a character device called /dev/chatroom when inserted into the kernel and implement the open(), close(), read() and write() functions.
+The kernel module created a character device called /dev/chatroom when inserted into the kernel and implement the open(), close(), read() and write() functions.
 
 A user-level process can join the chatroom using the open() system call on /dev/chatroom as soon as the process is started.
 
